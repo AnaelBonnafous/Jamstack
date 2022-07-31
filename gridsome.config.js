@@ -6,5 +6,18 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/source-graphql',
+      options: {
+        url: process.env.HYGRAPH_URL,
+        fieldName: 'hygraph',
+        typeName: 'hygraphTypes',
+
+        headers: {
+          Authorization: `Bearer ${process.env.HYGRAPH_AUTH_TOKEN}`,
+        },
+      },
+    },
+  ]
 }
