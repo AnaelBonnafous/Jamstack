@@ -11,8 +11,8 @@
     </p>
 
     <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://jamstack.org/" target="_blank" rel="noopener">Jamstack.org</a>
+      <a href="https://github.com/AnaelBonnafous/Jamstack" target="_blank" rel="noopener">GitHub repository</a>
     </p>
 
   </Layout>

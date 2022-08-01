@@ -5,7 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Jamstack',
+  siteUrl: 'https://jamstack.anaelbonnafous.fr/',
   plugins: [
     {
       use: '@gridsome/source-graphql',
